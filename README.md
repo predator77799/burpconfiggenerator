@@ -4,10 +4,10 @@ A command-line tool to generate Burp Suite configuration files with custom IP sc
 
 ## Installation
 
-To install `burp-config-generator`, make sure you have Go 1.16 or later installed, and run the following command:
+To install `burpconfiggenerator`, make sure you have Go 1.16 or later installed, and run the following command:
 
 ```sh
-go install github.com/predator77799/burp-config-generator@latest
+go install github.com/predator77799/burpconfiggenerator@latest
 ```
 
 Make sure that your Go `bin` directory (usually `$GOPATH/bin` or `$HOME/go/bin`) is included in your system's `PATH` environment variable so you can use the installed binary directly.
