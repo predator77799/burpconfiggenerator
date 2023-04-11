@@ -58,7 +58,7 @@ Example output (`burp_config.json`):
 By default, if the flags are not provided, the program will use "scope.txt" as the input file and "burp_config.json" as the output file:
 
 ```sh
-burp-config-generator
+burpconfiggenerator
 ```
 
 The `scope.txt` file should contain a list of IP addresses or domain names, with one IP address/domain name per line. The generated configuration file will include these IP addresses/domain names as the in-scope targets for Burp Suite.
