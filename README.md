@@ -14,16 +14,16 @@ Make sure that your Go `bin` directory (usually `$GOPATH/bin` or `$HOME/go/bin`)
 
 ## Usage
 
-After installing `burp-config-generator`, you can generate a Burp Suite configuration file using the following command:
+After installing `burpconfiggenerator`, you can generate a Burp Suite configuration file using the following command:
 
 ```sh
-burp-config-generator --input path/to/scope.txt --output path/to/burp_config.json
+burpconfiggenerator --input path/to/scope.txt --output path/to/burp_config.json
 ```
 
 By default, if the flags are not provided, the program will use "scope.txt" as the input file and "burp_config.json" as the output file:
 
 ```sh
-burp-config-generator
+burpconfiggenerator
 ```
 
 The `scope.txt` file should contain a list of IP addresses, with one IP address per line. The generated configuration file will include these IP addresses as the in-scope targets for Burp Suite.
